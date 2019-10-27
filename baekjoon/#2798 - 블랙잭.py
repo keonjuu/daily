@@ -8,7 +8,7 @@ def blackjack(n,m,card)
     for c2 in range(c1+1, n-1):
       for c3 in range(c2+1, n):
         if maxCard == m: return maxCard 
-        if card[c1]+card[c2]+card[c3]==m and maxCard<(card[c1] +card[c2] +card[c3]):
+        if card[c1]+card[c2]+card[c3]=<m and maxCard<(card[c1] +card[c2] +card[c3]):
             maxCard = card[c1] +card[c2] +card[c3]
 
   return maxCard 
